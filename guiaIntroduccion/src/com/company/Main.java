@@ -61,7 +61,7 @@ public class Main {
         System.out.println(B);
         System.out.println(C);
         System.out.println(D);
-    */
+
 
         //EJERCICIO 5
         int A = 5;
@@ -75,8 +75,48 @@ public class Main {
                 System.out.println("La variable es Impar");
             }
 
+
+// EJERCICIO 6
+
+int B = -2;
+if (B>0)
+{
+    System.out.println("El numero es positivo");
+}
+else
+    {
+        System.out.println("El numero es negativo");
     }
 
+    }
+      */
+
+    //EJERCICIO 7
+    int C = 4;
+    if(C % 2 == 0)
+    {
+        System.out.println("El numero es par");
+    }
+    else
+        {
+            System.out.println("El numero es impar");
+        }
+    if (C > 0)
+    {
+        System.out.println("El numero es positivo");
+    }
+    else
+        {
+            System.out.println("El numero es negativo");
+        }
+    if (C % 5 != 5)
+    {
+        System.out.println("El numero no es multiplo de 5)");
+    }
+    else
+        {
+            System.out.println("El numero es multiplo de 5");
+        }
 
 
     public void Ejercicio1() {

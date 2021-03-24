@@ -1,0 +1,95 @@
+[1mdiff --git a/guiaIntroduccion/out/production/guiaIntroduccion/com/company/Main.class b/guiaIntroduccion/out/production/guiaIntroduccion/com/company/Main.class[m
+[1mindex 8d6c564..fe247ea 100644[m
+Binary files a/guiaIntroduccion/out/production/guiaIntroduccion/com/company/Main.class and b/guiaIntroduccion/out/production/guiaIntroduccion/com/company/Main.class differ
+[1mdiff --git a/guiaIntroduccion/src/com/company/Main.java b/guiaIntroduccion/src/com/company/Main.java[m
+[1mindex 286c61d..05779ca 100644[m
+[1m--- a/guiaIntroduccion/src/com/company/Main.java[m
+[1m+++ b/guiaIntroduccion/src/com/company/Main.java[m
+[36m@@ -2,17 +2,19 @@[m [mpackage com.company;[m
+ [m
+ import java.util.Scanner;[m
+ [m
+[31m-public class Main[m
+[31m-{[m
+[32m+[m[32mpublic class Main {[m
+     public static void main(String[] args) {[m
+ // write your code here[m
+         Scanner scan = new Scanner(System.in);[m
+ [m
+[31m-        //int N = 7;[m
+[32m+[m
+[32m+[m[32m//EJERCICIO 1[m
+[32m+[m[32m        /*[m
+[32m+[m[32m        int N = 7;[m
+         double A = 2.10;[m
+         char C = 's';[m
+ [m
+[31m-        /*[m
+[32m+[m
+         System.out.println(N);[m
+         System.out.println(A);[m
+         System.out.println(C);[m
+[36m@@ -20,7 +22,8 @@[m [mpublic class Main[m
+         System.out.println("Suma de N + A:"+ (A+N));[m
+         System.out.println("A-N: "+(A-N));[m
+         System.out.println("Char --> "+(int)(C));[m
+[31m-        */[m
+[32m+[m
+[32m+[m[32m//EJERCICIO 2[m
+ [m
+         int X = 4;[m
+         int Y = 5;[m
+[36m@@ -32,12 +35,51 @@[m [mpublic class Main[m
+         System.out.println(" Suma de N + Y:"+ (N+Y));[m
+         System.out.println(" Multiplicacion de X * N:"+ (X*Y));[m
+ [m
+[32m+[m[32m        //EJERCICIO 3[m
+[32m+[m
+[32m+[m[32m        int N = 20;[m
+[32m+[m[32m        System.out.println("Sumar 77 a N, N ahora es:"+ (N+77));[m
+[32m+[m[32m        System.out.println("Reducir N a 3, N ahora es:"+ (N-17));[m
+[32m+[m[32m        System.out.println("Duplicar el valor de N, N ahora es:"+ (N*2));[m
+[32m+[m
+[32m+[m
+[32m+[m[32m// EJERCICIO 4[m
+[32m+[m
+[32m+[m[32m        int A = 2;[m
+[32m+[m[32m        int B = 32;[m
+[32m+[m[32m        int C = 5;[m
+[32m+[m[32m        int D = 66;[m
+[32m+[m[32m        int Aux;[m
+[32m+[m
+[32m+[m[32m        Aux = B;[m
+[32m+[m[32m        B = C;[m
+[32m+[m[32m        C = A;[m
+[32m+[m[32m        A = D;[m
+[32m+[m[32m        D = Aux;[m
+[32m+[m
+[32m+[m[32m        System.out.println(A);[m
+[32m+[m[32m        System.out.println(B);[m
+[32m+[m[32m        System.out.println(C);[m
+[32m+[m[32m        System.out.println(D);[m
+[32m+[m[32m    */[m
+[32m+[m
+[32m+[m[32m        //EJERCICIO 5[m
+[32m+[m[32m        int A = 5;[m
+[32m+[m
+[32m+[m[32m        if (A % 2 == 0)[m
+[32m+[m[32m            {[m
+[32m+[m[32m                System.out.println("La variable es Par");[m
+[32m+[m[32m            }[m
+[32m+[m[32m        else[m
+[32m+[m[32m            {[m
+[32m+[m[32m                System.out.println("La variable es Impar");[m
+[32m+[m[32m            }[m
+[32m+[m
+     }[m
+ [m
+ [m
+ [m
+[31m-    public void Ejercicio1()[m
+[31m-    {[m
+[32m+[m[32m    public void Ejercicio1() {[m
+         Scanner scan = new Scanner(System.in);[m
+ [m
+         int N;[m
