@@ -89,7 +89,7 @@ else
     }
 
     }
-      */
+
 
     //EJERCICIO 7
     int C = 4;
@@ -109,7 +109,7 @@ else
         {
             System.out.println("El numero es negativo");
         }
-    if (C % 5 != 5)
+    if (C % 5 == 0)
     {
         System.out.println("El numero no es multiplo de 5)");
     }
@@ -117,7 +117,46 @@ else
         {
             System.out.println("El numero es multiplo de 5");
         }
+    if (C % 10 == 0)
+    {
+        System.out.println("El numero es multiplo de 10");
+    }
+    else
+        {
+            System.out.println("El numero no es multiplo de 10");
+        }
+    if (C > 100)
+    {
+        System.out.println("El numero es menor que 100");
+    }
+    else
+        {
+            System.out.println("El numero es mayor que 100");
+        }
 
+
+
+
+//EJERCICIO 8
+
+        String Nombre;
+
+        Nombre = scan.next();
+        System.out.print(Nombre);
+
+//EJERCICIO 9
+        int numEntero = 0;
+
+        numEntero = scan.nextInt();
+        System.out.println("El doble del numero es: "+ (numEntero*numEntero));
+        System.out.println("El triple del numero es: "+ (numEntero*numEntero*numEntero));
+
+         */
+
+//EJERCICIO 10
+
+
+        }
 
     public void Ejercicio1() {
         Scanner scan = new Scanner(System.in);
